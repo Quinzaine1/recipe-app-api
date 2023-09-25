@@ -1,4 +1,3 @@
-from django.db import models  # noqa
 """
 Database models.
 """
@@ -8,6 +7,7 @@ from django.contrib.auth.models import (
     BaseUserManager,
     PermissionsMixin,
 )
+
 
 class UserManager(BaseUserManager):
     """Manager for users."""
